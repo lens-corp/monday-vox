@@ -22,10 +22,17 @@ MondayVox streamlines your workflow and improves cooperation by enabling you to 
   npm run dev
   ```
 
-## How to run backend
+## How to run BackEnd
 1. Add your Monday API Key at Line 19 of hosting_flask.py
 2. Add your openai Key at line 22 of hosting_flask.py
 3. Run the following command: 
   ```
   python3 hosting_flask.py
   ```
+
+## Integrate BackEnd and FrontEnd using NGROK
+1. Run:
+  ```
+  ngrok http 5000
+  ```
+2. Replace '6024' in line 230 of components/mainPage.jsx with first 4 characters of the url mentioned in front of Forwarding of ngrok.
