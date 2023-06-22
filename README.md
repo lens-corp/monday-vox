@@ -11,10 +11,17 @@ MondayVox streamlines your workflow and improves cooperation by enabling you to 
 
 ## How to build FrontEnd
 
-1: Create a .env file. That file should have two lines:
+1. Create a .env file. That file should have two lines:
   ```
   OPENAI_APIKEY=YOUR_OPENAI_KEY
   DO_NOT_USE_API=false
   ```
- 
+2. ```
+  npm i --save
+  npm run dev
+  ```
 
+## How to run backend
+1. Add your Monday API Key at Line 19 of hosting_flask.py
+2. Add your openai Key at line 22 of hosting_flask.py
+3. Run ```python3 hosting_flask.py```
