@@ -16,7 +16,8 @@ MondayVox streamlines your workflow and improves cooperation by enabling you to 
   OPENAI_APIKEY=YOUR_OPENAI_KEY
   DO_NOT_USE_API=false
   ```
-2. ```
+2. 
+  ```
   npm i --save
   npm run dev
   ```
