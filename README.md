@@ -36,3 +36,7 @@ MondayVox streamlines your workflow and improves cooperation by enabling you to 
   ngrok http 5000
   ```
 2. Replace '6024' in line 230 of components/mainPage.jsx with first 4 characters of the url mentioned in front of Forwarding of ngrok.
+
+
+## Acknowledgment
+1. Thanks to openai for Whisper and GPT-3.5 Turbo
