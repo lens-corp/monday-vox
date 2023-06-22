@@ -16,7 +16,7 @@ MondayVox streamlines your workflow and improves cooperation by enabling you to 
   OPENAI_APIKEY=YOUR_OPENAI_KEY
   DO_NOT_USE_API=false
   ```
-2. 
+2. Run the following commands:
   ```
   npm i --save
   npm run dev
@@ -25,7 +25,7 @@ MondayVox streamlines your workflow and improves cooperation by enabling you to 
 ## How to run backend
 1. Add your Monday API Key at Line 19 of hosting_flask.py
 2. Add your openai Key at line 22 of hosting_flask.py
-3. ```
-  npm i --save
-  npm run dev
+3. Run the following command: 
+  ```
+  python3 hosting_flask.py
   ```
