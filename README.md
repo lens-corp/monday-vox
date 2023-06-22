@@ -25,5 +25,6 @@ MondayVox streamlines your workflow and improves cooperation by enabling you to 
 1. Add your Monday API Key at Line 19 of hosting_flask.py
 2. Add your openai Key at line 22 of hosting_flask.py
 3. ```
-  python3 hosting_flask.py
+  npm i --save
+  npm run dev
   ```
